@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hoja de Vida</title>
+</head>
+<body>
+    <div class="container">
+        <header>Hoja de Vida - Dylan Jimenez</header>
+        <div class="nav-container">
+            <nav>
+                <a href="#perfil">PERFIL</a>
+                <a href="#proyectos">PROYECTOS</a>
+                <a href="#contacto">CONTACTO</a>
+            </nav>
+        </div>
+        
+        <section id="perfil" class="perfil">
+            <h2>Perfil</h2>
+            <p>Hola, soy Dylan Jimenez, desarrollador web con experiencia en HTML y CSS. Disfruto creando sitios accesibles y usables para todo tipo de usuarios.</p>
+            <p>He aplicado prácticas de usabilidad y accesibilidad en la mayoría de mis trabajos, tales como buena estructuración semántica y textos alternativos.</p>
+        </section>
+        
+        <section id="proyectos" class="proyectos">
+            <h2>Proyectos</h2>
+            <p>Estos son algunos de los proyectos en los que he trabajado.</p>
+            <div class="proyecto">
+                <img src="img/catPhotos.png" alt="CatPhotoApp">
+                <div class="info">
+                    <h3>CatPhotoApp</h3>
+                    <p><strong>Descripción:</strong> Proyecto para practicar HTML básico y etiquetado semántico.</p>
+                    <table class="tabla">
+                        <tr>
+                            <th>Tecnología</th>
+                            <th>Uso</th>
+                        </tr>
+                        <tr>
+                            <td>HTML5</td>
+                            <td>Estructura del sitio</td>
+                        </tr>
+                        <tr>
+                            <td>CSS3</td>
+                            <td>Estilos básicos</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/coffee.png" alt="CSS Café">
+                <div class="info">
+                    <h3>CSS Café</h3>
+                    <p><strong>Descripción:</strong> Maquetación y estilos de un menú tipo café, con transiciones y diseño responsive.</p>
+                    <table class="tabla">
+                        <tr>
+                            <th>Tecnología</th>
+                            <th>Uso</th>
+                        </tr>
+                        <tr>
+                            <td>HTML5</td>
+                            <td>Estructura</td>
+                        </tr>
+                        <tr>
+                            <td>CSS3</td>
+                            <td>Maquetación y responsive</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contacto" class="contacto">
+            <h2>Contacto</h2>
+            <p>Si deseas comunicarte conmigo, por favor diligencia el siguiente formulario:</p>
+            <form>
+                <label>Nombre:</label>
+                <input type="text" required>
+                <label>Correo electrónico:</label>
+                <input type="email" required>
+                <label>Mensaje:</label>
+                <textarea rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        
+        <footer>
+            &copy; 2025 - Dylan Jimenez. Ejemplo de hoja de vida estática en HTML y CSS.
+        </footer>
+    </div>
+</body>
+</html>
